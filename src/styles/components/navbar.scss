@@ -1,41 +1,25 @@
-.navbar {
+.navbar{
+    background-color: $bg-color;
+    color:$txt-color-white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 55px;
-    background-color: grey;
-    color: white;
-    z-index: -1;
-  }
-  .logo {
-    font-size: 20px;
-    //font-family: $font-quick;
+}
 
-  }
-  
-  .nav-links {
+.nav-list{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     list-style: none;
     width: 75%;
     padding: 20px;
     color: white;
-  }
-  
-  .nav-links1{
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    margin: 0 10px;
-    cursor: pointer;
-    //font-family: $font-quick;
-  }
-
-  .nav-links1:hover{
-    color:red;
-  }
-
-  .burger-menu {
-    display: none;
-  }
-  
+    gap: 10px;
+    .nav-link{
+     button{
+        height: 30px;
+        width: 80px;
+        cursor: pointer;
+     }
+    }
+}

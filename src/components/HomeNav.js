@@ -5,36 +5,24 @@ function HomeNav() {
   return (
     <div>
       <nav className="navbar">
-        <h1 className="logo">Parallax Internet</h1>
-        <ul
-          className={isMobile ? "nav-links-mobile" : "nav-links"}
-          onClick={() => setIsMobile(false)}
-        >
-          <NavLink to="/" className="nav-links1" exact>
-            <li>Home</li>
-          </NavLink>
-          <NavLink activeStyle={{ color:'#5754a8' }} to="/plans" className="nav-links1">
-            <li>Plans</li>
-          </NavLink>
+        <div className="logo">
+          <h1>Parralax Internet</h1>
+        </div>
 
-          <NavLink activeStyle={{ color:'#5754a8' }} to="/support" className="nav-links1">
-            <li>Support</li>
-          </NavLink>
-          <NavLink activeStyle={{ color:'#5754a8' }} to="/apply" className="nav-links1">
-            <li>Apply now</li>
-          </NavLink>
+        <div className="link-center">
+          <ul className="nav-list">
+            <li className="nav-link">Home</li>
+            <li className="nav-link">Plans</li>
+            <li className="nav-link">Support</li>
+          </ul>
+        </div>
 
-          <NavLink activeStyle={{ color:'#5754a8' }} to="/apply" className="nav-links1">
-            <li>Bills Payment</li>
-          </NavLink>
-        </ul>
-        <button className="burger-menu" onClick={() => setIsMobile(!isMobile)}>
-          {isMobile ? (
-            <i className="fas fa-times"></i>
-          ) : (
-            <i className="fas fa-bars"></i>
-          )}
-        </button>
+        <div className="link-right">
+        <ul className="nav-list">
+            <li className="nav-link"><button type="button">Apply Now</button></li>
+            <li className="nav-link"><button type="button">Pay Bills</button></li>
+          </ul>
+        </div>
       </nav>
     </div>
   );

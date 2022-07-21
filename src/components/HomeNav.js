@@ -4,7 +4,7 @@ function HomeNav() {
   const [isMobile, setIsMobile] = useState(false);
   return (
     <div>
-      <nav className="navbar">
+      <nav className="navbar-home">
         <div className="logo">
           <h1>Parralax Internet</h1>
         </div>

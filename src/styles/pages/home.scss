@@ -1,7 +1,73 @@
-.home-container{
+.home-container {
     height: 75vh;
     background-image: url("/assets/images/landing-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.landing {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:185px;
+    color:$txt-color-white;
+    p{
+        line-height: 1.7;
+    }
+}
+
+.about-container{
+    height:150px;
+    background-color: $bg-color;
+    color: $txt-color-white;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    .about{
+        p{
+            line-height: 1.7;
+        }
+        .about-btn{
+            padding: 10px;
+            .branch-btn{
+                height: 30px;
+                width: 150px;
+                border-radius: 60px;
+                border: none;
+                cursor: pointer;
+                background-color: $btn-color-blue;
+                color: $txt-color-white;
+            }
+        }
+    }
+}
+
+.branch-container{
+    height: 250px;
+h1{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+    .parralax-col{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        .col-icon{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+           i{
+            border: 1px solid black;
+            height: 60px;
+            border-radius: 60px;
+            width: 60px;
+            display: grid;
+            align-items: center;
+           }
+        }
+    }
 }

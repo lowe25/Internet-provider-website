@@ -1,0 +1,34 @@
+.support-about {
+    min-height:500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        line-height: 1.7;
+    }
+}
+
+.support-type {
+    height: 300px;
+    background-color: #C8C8C8;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap:100px;
+    .icon{
+        text-align: center;
+    
+    }
+    .trouble-list{
+        text-align: center;
+        ul{
+            li{
+                list-style: none;
+                padding: 10px;
+            }
+        }
+    }
+}

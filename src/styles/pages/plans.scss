@@ -1,0 +1,51 @@
+.plans-container{
+    min-height: 800px;
+}
+.plans{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,auto);
+    gap:50px;
+    padding:50px 0 50px 0;
+}
+
+.plans-box{
+    min-height:300px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    .speed{
+        color: $txt-color-white;
+        text-align: center;
+        background-color: $bg-color;
+        width:400px;
+    }
+    .plans-desc{
+        text-align: center;
+    }
+    .plan-benefits{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            text-align: center;
+        }
+        padding: 20px;
+        ul{
+            li{
+             list-style: none;
+             padding: 5px;
+            }
+         }
+    }
+    .plan-btn{
+        display: flex;
+        justify-content: center;
+        .btn-apply{
+            height: 40px;
+            width: 120px;
+            border-radius: 60px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+    }
+}

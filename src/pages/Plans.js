@@ -6,11 +6,13 @@ function Plans() {
             <div className="plans-container">
                 <section className="plans">
                     <div className="plans-box">
+                        <div className="speed">
                         <h1>25 Mbps</h1>
-                        <div className="plans-desc">
+                        </div>
+                         <div className="plans-desc">
                             <h1>Plan 2000</h1>
-                            <p>Best for Gaming and Movie Streaming
-                                video conferencing, virtual learning and
+                            <p>Best for Gaming and Movie Streaming <br />
+                                video conferencing, virtual learning and <br />
                                 work from home.
                             </p>
                             <h1>$59.00/mo</h1>
@@ -29,11 +31,13 @@ function Plans() {
                     </div>
 
                     <div className="plans-box">
+                        <div className="speed">
                         <h1>50 Mbps</h1>
+                        </div>
                         <div className="plans-desc">
                             <h1>Plan 2000</h1>
-                            <p>Best for Gaming and Movie Streaming
-                                video conferencing, virtual learning and
+                            <p>Best for Gaming and Movie Streaming  <br />
+                                video conferencing, virtual learning and  <br />
                                 work from home.
                             </p>
                             <h1>$59.00/mo</h1>
@@ -52,11 +56,13 @@ function Plans() {
                     </div>
 
                     <div className="plans-box">
+                    <div className="speed">
                         <h1>100 Mbps</h1>
+                        </div>
                         <div className="plans-desc">
                             <h1>Plan 2000</h1>
-                            <p>Best for Gaming and Movie Streaming
-                                video conferencing, virtual learning and
+                            <p>Best for Gaming and Movie Streaming  <br />
+                                video conferencing, virtual learning and  <br />
                                 work from home.
                             </p>
                             <h1>$59.00/mo</h1>
@@ -75,11 +81,13 @@ function Plans() {
                     </div>
 
                     <div className="plans-box">
+                    <div className="speed">
                         <h1>200 Mbps</h1>
+                        </div>
                         <div className="plans-desc">
                             <h1>Plan 2000</h1>
-                            <p>Best for Gaming and Movie Streaming
-                                video conferencing, virtual learning and
+                            <p>Best for Gaming and Movie Streaming  <br />
+                                video conferencing, virtual learning and  <br />
                                 work from home.
                             </p>
                             <h1>$59.00/mo</h1>
@@ -98,11 +106,13 @@ function Plans() {
                     </div>
 
                     <div className="plans-box">
+                    <div className="speed">
                         <h1>400 Mbps</h1>
+                        </div>
                         <div className="plans-desc">
                             <h1>Plan 2000</h1>
-                            <p>Best for Gaming and Movie Streaming
-                                video conferencing, virtual learning and
+                            <p>Best for Gaming and Movie Streaming  <br />
+                                video conferencing, virtual learning and  <br />
                                 work from home.
                             </p>
                             <h1>$59.00/mo</h1>
@@ -121,11 +131,13 @@ function Plans() {
                     </div>
 
                     <div className="plans-box">
+                    <div className="speed">
                         <h1>500 Mbps</h1>
+                        </div>
                         <div className="plans-desc">
                             <h1>Plan 2000</h1>
-                            <p>Best for Gaming and Movie Streaming
-                                video conferencing, virtual learning and
+                            <p>Best for Gaming and Movie Streaming  <br />
+                                video conferencing, virtual learning and  <br />
                                 work from home.
                             </p>
                             <h1>$59.00/mo</h1>

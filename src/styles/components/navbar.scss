@@ -1,25 +1,59 @@
-.navbar{
-    background-color: $bg-color;
-    color:$txt-color-white;
+.navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
+    background-color: $bg-color;
     align-items: center;
     height: 55px;
-}
-
-.nav-list{
+    color: white;
+    z-index: -1;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  
+  .navbar-home1 {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    width: 75%;
+    width: 100%;
     padding: 20px;
     color: white;
-    gap: 10px;
-    .nav-link{
-     button{
-        height: 30px;
-        width: 80px;
+  }
+
+  .navbar-home2 {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    .btn-nav{
+        border-radius: 64px;
+        height: 34px;
+        width: 90px;
+        border: none;
         cursor: pointer;
-     }
+        background-color: $btn-color-blue;
+        color: $txt-color-white;
     }
-}
+  }
+  .nav-links1{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .nav-links2{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+  

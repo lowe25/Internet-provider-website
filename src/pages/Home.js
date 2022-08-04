@@ -4,26 +4,37 @@ function Home() {
         <>
             <div className="home-container">
                 <HomeNav />
+                <div className="landing">
+                    <h1>Make it Easier On Communicating </h1>
+                    <p>By Using Acme Internet</p>
+
+                    <div className="landing-btn">
+                        <button className="btn-viewPlans">View Plans</button>
+                    </div>
+                </div>
             </div>
-            <div className="about">
-                <p>Planning on upgrading your internet connection?
-                    find a branch near you</p>
+            <div className="about-container">
+                <div className="about">
+                    <p>Planning on upgrading your internet connection?<br />
+                        find a branch near you</p>
                     <div className="about-btn">
                         <button type="button" className="branch-btn">Find Branch</button>
                     </div>
+                </div>
             </div>
+            
             <div className="branch-container">
                 <h1>With Parralax Internet</h1>
                 <div className="parralax-col">
                     <div className="col-box">
                         <div className="col-icon">
-                        <i className="fas fa-wifi"></i>
+                            <i className="fas fa-wifi"></i>
                         </div>
                         <div className="col-desc">
                             <p>
-                                Parralax Internet
+                                Parralax Internet <br />
                                 can deliver
-                                speeds faster than
+                                speeds faster than<br />
                                 5G providers
                             </p>
                         </div>
@@ -31,7 +42,7 @@ function Home() {
 
                     <div className="col-box">
                         <div className="col-icon">
-                        <i className="fas fa-ethernet"></i>
+                            <i className="fas fa-ethernet"></i>
                         </div>
                         <div className="col-desc">
                             <p>
@@ -45,7 +56,7 @@ function Home() {
 
                     <div className="col-box">
                         <div className="col-icon">
-                        <i className="fas fa-phone-alt"></i>
+                            <i className="fas fa-phone-alt"></i>
                         </div>
                         <div className="col-desc">
                             <p>

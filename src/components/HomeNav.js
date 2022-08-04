@@ -5,22 +5,36 @@ function HomeNav() {
   return (
     <div>
       <nav className="navbar-home">
-        <div className="logo">
           <h1>Parralax Internet</h1>
-        </div>
-
         <div className="link-center">
-          <ul className="nav-list">
-            <li className="nav-link">Home</li>
-            <li className="nav-link">Plans</li>
-            <li className="nav-link">Support</li>
+          <ul className={isMobile ? "nav-links-mobile1" : "nav-homepage1"}
+            onClick={() => setIsMobile(false)}>
+            <NavLink to="/" className="nav-links1">
+              <li>Home</li>
+            </NavLink>
+
+            <NavLink to="/plans" className="nav-homeLinks1">
+              <li>Plans</li>
+            </NavLink>
+
+            <NavLink to="/support" className="nav-homeLinks1">
+              <li>Support</li>
+            </NavLink>
           </ul>
         </div>
 
         <div className="link-right">
-        <ul className="nav-list">
-            <li className="nav-link"><button type="button">Apply Now</button></li>
-            <li className="nav-link"><button type="button">Pay Bills</button></li>
+        <ul
+            className={isMobile ? "nav-links-mobile2" : "nav-homepage2"}
+            onClick={() => setIsMobile(false)}
+          >
+          <NavLink to="/plans" className="nav-homeLinks2">
+              <li><button className="btn-nav" type="button">Apply Now</button></li>
+            </NavLink>
+
+            <NavLink to="/bills" className="nav-homeLinks2">
+              <li><button className="btn-nav" type="button">Pay Bills</button></li>
+            </NavLink>
           </ul>
         </div>
       </nav>

@@ -1,0 +1,34 @@
+.apply-container{
+    height: 643px;
+    .resident-type{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.fillout-form{
+ position: relative;
+ top:25%;
+}
+
+.application-form{
+    display: grid;
+    justify-content: center;
+
+    .house{
+        display: flex;
+        gap:10px;
+        padding-bottom: 10px;
+    }
+    .street{
+        display: flex;
+        gap:10px; 
+        padding-bottom: 10px;
+    }
+    .address{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

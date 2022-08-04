@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import Plans from './pages/Plans';
 import Support from './pages/Support';
 import Apply from './pages/Apply';
+import Bills from './pages/Bills';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/plans" component={Plans} />
         <Route path="/support" component={Support} />
         <Route path="/apply" component={Apply} />
+        <Route path="/bills" component={Bills} />
       </Switch>
       <Footer />
      </BrowserRouter>

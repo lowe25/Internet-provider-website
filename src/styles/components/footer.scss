@@ -1,0 +1,30 @@
+.footer {
+    min-height: 120px;
+    padding: 20px;
+    background-color: $bg-color;
+    color: $txt-color-white;
+
+}
+
+.soc-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-links {
+    padding-top: 25px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+    }
+}
+
+.copyright-container {
+    padding: 20px 0 15px 0;
+    text-align: center;
+}

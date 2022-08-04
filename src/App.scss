@@ -1,6 +1,8 @@
 //Base
 @import "./styles/base/reset.scss";
 
+@import "./styles/base/mediaQueries.scss";
+@import "./styles/base/mixins.scss";
 @import "./styles/base/colors.scss";
 @import "./styles/base/fonts.scss";
 

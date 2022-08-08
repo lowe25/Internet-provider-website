@@ -12,9 +12,7 @@
 .support-type {
   height: 350px;
   background-color: #c8c8c8;
- padding: 30px;
- font-size: 17px;
-
+  padding: 30px;
   .help-h1 {
     display: flex;
     justify-content: space-evenly;
@@ -34,14 +32,23 @@
     grid-template-columns: repeat(3, auto);
     gap: 100px;
     padding-top: 20px;
-    font-size: 17px;
     .concern-box {
       display: grid;
-      gap:10px;
-      .concern-desc{
-        p span{
-            display: block;
-            line-height: 1.5;
+      gap: 10px;
+      .concern-desc {
+        p span {
+          display: block;
+          line-height: 1.5;
+        }
+      }
+      .concernBtn-con {
+        .btn-concern {
+          height: 30px;
+          width: 110px;
+          background-color: $btn-color-blue;
+          color: $txt-color-white;
+          border: none;
+          cursor: pointer;
         }
       }
     }

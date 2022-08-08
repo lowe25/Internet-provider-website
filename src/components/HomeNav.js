@@ -28,15 +28,20 @@ function HomeNav() {
             className={isMobile ? "nav-links-mobile2" : "nav-homepage2"}
             onClick={() => setIsMobile(false)}
           >
-          <NavLink to="/plans" className="nav-homeLinks2">
-              <li><button className="btn-nav" type="button">Apply Now</button></li>
-            </NavLink>
 
             <NavLink to="/bills" className="nav-homeLinks2">
               <li><button className="btn-nav" type="button">Pay Bills</button></li>
             </NavLink>
           </ul>
         </div>
+
+        <button className="burger-menu" onClick={() => setIsMobile(!isMobile)}>
+          {isMobile ? (
+            <i className="fas fa-times"></i>
+          ) : (
+            <i className="fas fa-bars"></i>
+          )}
+        </button>
       </nav>
     </div>
   );

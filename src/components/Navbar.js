@@ -28,10 +28,7 @@ function HomeNav() {
             className={isMobile ? "nav-links-mobile2" : "navbar-home2"}
             onClick={() => setIsMobile(false)}
           >
-            <NavLink to="/plans" className="nav-links2">
-              <li><button className="btn-nav" type="button">Apply Now</button></li>
-            </NavLink>
-
+         
             <NavLink to="/bills" className="nav-links2">
               <li><button className="btn-nav" type="button">Pay Bills</button></li>
             </NavLink>

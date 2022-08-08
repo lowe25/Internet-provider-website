@@ -32,7 +32,7 @@ function Support() {
                             </div>
 
                             <div className="concernBtn-con">
-                                <button className="btn-concern">Pay Bills</button>
+                                <button className="btn-concern" type="button">Pay Bills</button>
                             </div>
                         </div>
 
@@ -53,7 +53,7 @@ function Support() {
                             </div>
 
                             <div className="concernBtn-con">
-                                <button className="btn-concern">Check Charges</button>
+                                <button className="btn-concern" type="button">Check Charges</button>
                             </div>
                         </div>
 
@@ -74,7 +74,7 @@ function Support() {
                             </div>
 
                             <div className="concernBtn-con">
-                                <button className="btn-concern">Make a Request</button>
+                                <button className="btn-concern" type="button">Make a Request</button>
                             </div>
                         </div>
                     </div>

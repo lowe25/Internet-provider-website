@@ -22,7 +22,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            
+
             <div className="branch-container">
                 <h1>With Parralax Internet</h1>
                 <div className="parralax-col">

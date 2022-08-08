@@ -1,5 +1,10 @@
 .plans-container{
-    min-height: 800px;
+    display: grid;
+    align-items: center;
+    min-height: 730px;
+    .plans-h1{
+        text-align: center;
+    }
 }
 .plans{
     display: grid;

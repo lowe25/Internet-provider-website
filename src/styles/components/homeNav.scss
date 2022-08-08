@@ -56,3 +56,64 @@
     display: none;
   }
   
+  @include mobile-device1(mobile-md){
+    .navbar-home{
+      display: none;
+    }
+    .logo{
+      display: flex;
+      position: absolute;
+      top: 18px;
+      left: 20px;
+      font-size: 16px;
+    }
+    .nav-homepage1,.nav-homepage2{
+      display: none;
+    }
+    .nav-links-mobile1{
+      position: absolute;
+      display: block;
+      left: 0;
+      top:50px;
+      width: 100%;
+      color: white;
+      z-index: 1;
+    }
+
+    .nav-links-mobile2{
+      position: absolute;
+      display: block;
+      left: 0;
+      top:230px;
+      width: 100%;
+      color: white;
+      z-index: 1;
+    }
+  
+    .burger-menu{
+      display: block;
+      position: absolute;
+      top: 14px;
+      right: 25px;
+      font-size: 30px;
+      color: white;
+      border: none;
+      outline: none;
+    }
+    .nav-homeLinks1{
+      text-align: center;
+      color: white;
+      padding: 32px;
+      list-style: none;
+      width: 100%;
+      padding: 20px;
+    }
+ 
+    .burger-menu{
+      display: block;
+      position: absolute;
+      font-size: 22px;
+      border: none;
+    }
+   
+  } 

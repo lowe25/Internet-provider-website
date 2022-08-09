@@ -57,3 +57,12 @@
     display: none;
   }
   
+  //Media Queries
+  @include mobile-device1(mobile-md){
+    .navbar{
+
+    }
+    .navbar-home1,.navbar-home2{
+      display: none;
+    }
+  }

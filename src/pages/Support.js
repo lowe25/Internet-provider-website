@@ -11,8 +11,10 @@ function Support() {
                 </section>
 
                 <section className="support-type">
-                    <h1 className="help-h1">How Can We Help You Today?</h1>
-                    <p className="solutions-p">Pick one from the topics below and we’ll find the best solution for you.</p>
+                    <div className="support">
+                        <h1 className="help-h1">How Can We Help You Today?</h1>
+                        <p className="solutions-p">Pick one from the topics below and we’ll find the best solution for you.</p>
+                    </div>
 
                     <div className="concerns-div">
                         <div className="concern-box">

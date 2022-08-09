@@ -1,56 +1,73 @@
-.plans-container{
-    display: grid;
-    align-items: center;
-    min-height: 730px;
-    .plans-h1{
-        text-align: center;
-    }
+.plans-container {
+  display: grid;
+  align-items: center;
+  min-height: 730px;
+  .plans-h1 {
+    text-align: center;
+  }
 }
-.plans{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3,auto);
-    gap:50px;
-    padding:50px 0 50px 0;
+.plans {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  gap: 50px;
+  padding: 50px 0 50px 0;
 }
 
-.plans-box{
-    min-height:300px;
-    padding-bottom: 10px;
-    border: 1px solid black;
-    .speed{
-        color: $txt-color-white;
-        text-align: center;
-        background-color: $bg-color;
-        width:400px;
+.plans-box {
+  min-height: 300px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  .speed {
+    color: $txt-color-white;
+    text-align: center;
+    background-color: $bg-color;
+    width: 400px;
+  }
+  .plans-desc {
+    text-align: center;
+  }
+  .plan-benefits {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      text-align: center;
     }
-    .plans-desc{
-        text-align: center;
+    padding: 20px;
+    ul {
+      li {
+        list-style: none;
+        padding: 5px;
+      }
     }
-    .plan-benefits{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        h1{
-            text-align: center;
-        }
-        padding: 20px;
-        ul{
-            li{
-             list-style: none;
-             padding: 5px;
-            }
-         }
+  }
+  .plan-btn {
+    display: flex;
+    justify-content: center;
+    .btn-apply {
+      height: 40px;
+      width: 120px;
+      border-radius: 60px;
+      border: 1px solid black;
+      cursor: pointer;
     }
-    .plan-btn{
-        display: flex;
-        justify-content: center;
-        .btn-apply{
-            height: 40px;
-            width: 120px;
-            border-radius: 60px;
-            border: 1px solid black;
-            cursor: pointer;
-        }
+  }
+}
+
+//MediaQueries
+@include mobile-device1(mobile-md) {
+  .plans-h1{
+    padding: 20px;
+    line-height: 1.6;
+  }
+  .plans {
+    grid-template-columns: repeat(1, auto);
+  }
+  .plans-box {
+    width: 300px;
+    .speed {
+      width: 298px;
     }
+  }
 }

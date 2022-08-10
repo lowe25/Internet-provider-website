@@ -9,7 +9,7 @@ function HomeNav() {
         <div className="link-center">
           <ul className={isMobile ? "nav-links-mobile1" : "nav-homepage1"}
             onClick={() => setIsMobile(false)}>
-            <NavLink to="/" className="nav-links1">
+            <NavLink to="/" className="nav-homeLinks1">
               <li>Home</li>
             </NavLink>
 

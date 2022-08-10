@@ -5,35 +5,43 @@ function HomeNav() {
   return (
     <div>
       <nav className="navbar">
-        <h1>Parralax Internet</h1>
+          <h1>Parralax Internet</h1>
         <div className="link-center">
-          <ul className={isMobile ? "nav-links-mobile1" : "navbar-home1"}
+          <ul className={isMobile ? "nav-links-page-mobile1" : "nav-homepage1-links"}
             onClick={() => setIsMobile(false)}>
-            <NavLink to="/" className="nav-links1">
+            <NavLink to="/" className="nav-homeLinks1">
               <li>Home</li>
             </NavLink>
 
-            <NavLink to="/plans" className="nav-links1">
+            <NavLink to="/plans" className="nav-homeLinks1">
               <li>Plans</li>
             </NavLink>
 
-            <NavLink to="/support" className="nav-links1">
+            <NavLink to="/support" className="nav-homeLinks1">
               <li>Support</li>
             </NavLink>
           </ul>
         </div>
 
         <div className="link-right">
-          <ul
-            className={isMobile ? "nav-links-mobile2" : "navbar-home2"}
+        <ul
+            className={isMobile ? "nav-links-page-mobile2" : "nav-homepage2-links"}
             onClick={() => setIsMobile(false)}
           >
-         
-            <NavLink to="/bills" className="nav-links2">
+
+            <NavLink to="/bills" className="nav-homeLinks2">
               <li><button className="btn-nav" type="button">Pay Bills</button></li>
             </NavLink>
           </ul>
         </div>
+
+        <button className="burger-menu" onClick={() => setIsMobile(!isMobile)}>
+          {isMobile ? (
+            <i className="fas fa-times"></i>
+          ) : (
+            <i className="fas fa-bars"></i>
+          )}
+        </button>
       </nav>
     </div>
   );

@@ -7,7 +7,7 @@ function HomeNav() {
       <nav className="navbar-home">
           <h1>Parralax Internet</h1>
         <div className="link-center">
-          <ul className={isMobile ? "nav-links-mobile1" : "nav-homepage1"}
+          <ul className={isMobile ? "nav-links-mobile1" : "nav-homepage1-links"}
             onClick={() => setIsMobile(false)}>
             <NavLink to="/" className="nav-homeLinks1">
               <li>Home</li>
@@ -25,17 +25,16 @@ function HomeNav() {
 
         <div className="link-right">
         <ul
-            className={isMobile ? "nav-links-mobile2" : "nav-homepage2"}
+            className={isMobile ? "nav-links-mobile2" : "nav-homepage2-links"}
             onClick={() => setIsMobile(false)}
           >
-
             <NavLink to="/bills" className="nav-homeLinks2">
               <li><button className="btn-nav" type="button">Pay Bills</button></li>
             </NavLink>
           </ul>
         </div>
 
-        <button className="burger-menu" onClick={() => setIsMobile(!isMobile)}>
+        <button className="home-burger-menu" onClick={() => setIsMobile(!isMobile)}>
           {isMobile ? (
             <i className="fas fa-times"></i>
           ) : (

@@ -7,17 +7,17 @@ function HomeNav() {
       <nav className="navbar">
           <h1>Parralax Internet</h1>
         <div className="link-center">
-          <ul className={isMobile ? "nav-links-page-mobile1" : "nav-homepage1-links"}
+          <ul className={isMobile ? "nav-links-page-mobile1" : "nav-page-links1"}
             onClick={() => setIsMobile(false)}>
-            <NavLink to="/" className="nav-homeLinks1">
+            <NavLink to="/" className="nav-links">
               <li>Home</li>
             </NavLink>
 
-            <NavLink to="/plans" className="nav-homeLinks1">
+            <NavLink to="/plans" className="nav-links">
               <li>Plans</li>
             </NavLink>
 
-            <NavLink to="/support" className="nav-homeLinks1">
+            <NavLink to="/support" className="nav-links">
               <li>Support</li>
             </NavLink>
           </ul>
@@ -25,11 +25,11 @@ function HomeNav() {
 
         <div className="link-right">
         <ul
-            className={isMobile ? "nav-links-page-mobile2" : "nav-homepage2-links"}
+            className={isMobile ? "nav-links-page-mobile2" : "nav-page-links2"}
             onClick={() => setIsMobile(false)}
           >
 
-            <NavLink to="/bills" className="nav-homeLinks2">
+            <NavLink to="/bills" className="nav-links">
               <li><button className="btn-nav" type="button">Pay Bills</button></li>
             </NavLink>
           </ul>

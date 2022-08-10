@@ -23,7 +23,7 @@ function Plans() {
                             <ul>
                                 <li><i className="fas fa-phone-alt"></i>
                                     Landline</li>
-                                <li><i class="fas fa-laptop"></i>Netflix and Disney +</li>
+                                <li><i className="fas fa-laptop"></i>Netflix and Disney +</li>
                             </ul>
                         </div>
                         <div className="plan-btn">
@@ -48,7 +48,7 @@ function Plans() {
                             <ul>
                                 <li><i className="fas fa-phone-alt"></i>
                                     Landline</li>
-                                <li><i class="fas fa-laptop"></i>Netflix and Disney +</li>
+                                <li><i className="fas fa-laptop"></i>Netflix and Disney +</li>
                             </ul>
                         </div>
                         <div className="plan-btn">
@@ -73,7 +73,7 @@ function Plans() {
                             <ul>
                                 <li><i className="fas fa-phone-alt"></i>
                                     Landline</li>
-                                <li><i class="fas fa-laptop"></i>Netflix and Disney +</li>
+                                <li><i className="fas fa-laptop"></i>Netflix and Disney +</li>
                             </ul>
                         </div>
                         <div className="plan-btn">

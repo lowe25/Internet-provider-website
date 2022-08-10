@@ -1,11 +1,10 @@
-.navbar-home{
+.navbar-home {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   height: 55px;
   color: white;
   z-index: -1;
-  background-color: $bg-color;
 }
 .logo {
   font-size: 20px;
@@ -27,17 +26,17 @@
   width: 100%;
   padding: 20px;
   color: white;
-  .btn-nav{
-      border-radius: 64px;
-      height: 34px;
-      width: 90px;
-      border: none;
-      cursor: pointer;
-      background-color: $btn-color-blue;
-      color: $txt-color-white;
+  .btn-nav {
+    border-radius: 64px;
+    height: 34px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    background-color: $btn-color-blue;
+    color: $txt-color-white;
   }
 }
-.nav-homeLinks1{
+.nav-homeLinks1 {
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -45,57 +44,40 @@
   cursor: pointer;
 }
 
-.nav-homeLinks2{
+.nav-homeLinks2 {
   text-decoration: none;
   color: white;
   font-size: 16px;
   margin: 0 10px;
   cursor: pointer;
+  .btn-nav{
+    border-radius: 64px;
+    height: 34px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    background-color: $btn-color-blue;
+    color: $txt-color-white;
+}
 }
 
-.burger-menu {
+.home-burger-menu {
   display: none;
 }
 
 //Media Queries
-@include mobile-device1(mobile-md){
-.nav-homepage1,.nav-homepage2{
-  display: none;
+//Mobile
+@include mobile-device1(mobile-md) {
+  @include nav-mobile;
 }
-  .nav-links-mobile1{
-    @include dropdown-navDesign;  
-  }
 
-  .nav-links-mobile2{
-    @include dropdown-navDesign;
-    text-align: center;
-    top:160px;
-  }
+@include mobile-device-md(mobile-lg,mobile-xl){
+  @include nav-mobile;
+}
 
-  .burger-menu{
-    display: block;
-    position: absolute;
-    top: 14px;
-    right: 25px;
-    font-size: 30px;
-    border: none;
-    outline: none;
-    background-color: $bg-color;
-    color: $txt-color-white;
-  }
-  .nav-homeLinks1{
-    text-align: center;
-    padding: 32px;
-    list-style: none;
-    width: 100%;
-    padding: 20px;
-  }
+//Tablet
+@include tablet-device-sm(tablet-sm, tablet-md){
+  @include nav-mobile;
+}
 
-  .burger-menu{
-    display: block;
-    position: absolute;
-    font-size: 22px;
-    border: none;
-  }
- 
-} 
+

@@ -2,8 +2,7 @@ $screen-sizes: (
   "mobile-sm": 0px,
   "mobile-md": 480px,
   "mobile-lg": 481px,
-  "mobile-xx": 589px,
-  "tablet-sm1": 590px,
+  "mobile-xl": 767px,
   "tablet-sm": 768px,
   "tablet-md": 1024px,
   "tablet-lg": 1025px,
@@ -17,13 +16,13 @@ $screen-sizes: (
   }
 }
 
-@mixin mobile-device-sm($screen, $screen2) {
+@mixin mobile-device-sm($screen1, $screen2) {
   @media (min-width: map-get($screen-sizes, $screen1)) and (max-width: map-get($screen-sizes, $screen2)) {
     @content;
   }
 }
 
-@mixin mobile-device-md($screen, $screen2) {
+@mixin mobile-device-md($screen1, $screen2) {
   @media (min-width: map-get($screen-sizes, $screen1)) and (max-width: map-get($screen-sizes, $screen2)) {
     @content;
   }

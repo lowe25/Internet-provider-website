@@ -1,6 +1,6 @@
-.navbar{
+.navbar {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   background-color: $bg-color;
   height: 55px;
@@ -11,7 +11,7 @@
   font-size: 20px;
 }
 
-.nav-homepage1-links {
+.nav-page-links1 {
   display: flex;
   justify-content: flex-end;
   list-style: none;
@@ -20,32 +20,24 @@
   color: $txt-color-white;
 }
 
-.nav-homepage2-links {
+.nav-page-links2 {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   width: 100%;
   padding: 20px;
   color: $txt-color-white;
-  .btn-nav{
-      border-radius: 64px;
-      height: 34px;
-      width: 90px;
-      border: none;
-      cursor: pointer;
-      background-color: $btn-color-blue;
-      color: $txt-color-white;
+  .btn-nav {
+    border-radius: 64px;
+    height: 34px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    background-color: $btn-color-blue;
+    color: $txt-color-white;
   }
 }
-.nav-homeLinks1{
-  text-decoration: none;
-  color: $txt-color-white;
-  font-size: 16px;
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.nav-homeLinks2{
+.nav-links {
   text-decoration: none;
   color: $txt-color-white;
   font-size: 16px;
@@ -58,55 +50,17 @@
 }
 
 //Media Queries
-@include mobile-device1(mobile-md){
-  .nav-homepage1-links,.nav-homepage2-links{
-    display: none;
-  }
-  .nav-links-page-mobile1{
-    position: absolute;
-    display: block;
-    left: 0;
-    top:50px;
-    width: 100%;
-    background-color: $bg-color;
-    z-index: 1;
-  }
+//Mobile 480px
+@include mobile-device1(mobile-md) {
+  @include nav-mobile-page;
+}
 
-  .nav-links-page-mobile2{
-    position: absolute;
-    display: block;
-    left: 0;
-    top:160px;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    background-color: $bg-color;
-  }
+//Mobile 481px - 767px
+@include mobile-device-md(mobile-lg, mobile-xl) {
+  @include nav-mobile-page;
+}
 
-  .burger-menu{
-    display: block;
-    position: absolute;
-    top: 14px;
-    right: 25px;
-    font-size: 30px;
-    border: none;
-    outline: none;
-    background-color: $bg-color;
-    color: $txt-color-white;
-  }
-  .nav-homeLinks1{
-    text-align: center;
-    padding: 32px;
-    list-style: none;
-    width: 100%;
-    padding: 20px;
-  }
-
-  .burger-menu{
-    display: block;
-    position: absolute;
-    font-size: 22px;
-    border: none;
-  }
- 
-} 
+//Tablet 768px - 1024px
+@include tablet-device-sm(tablet-sm,tablet-md){
+  @include nav-mobile-page;
+}

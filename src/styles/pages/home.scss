@@ -72,27 +72,50 @@
   }
 }
 
-
 //Media Queries
-@include mobile-device1(mobile-md){
-.landing{
-  padding: 30px;
-  p{
-    padding-top: 2px;
-  }
- .landing-btn{
-    padding-top: 12px;
- }
-}    
-.about-container{
-   .about{
-    padding: 20px;
-   }
-}
-.branch-container{
-    padding: 20px;
-    .parralax-col{
-       flex-direction: column;
+@include mobile-device1(mobile-md) {
+  .landing {
+    padding: 30px;
+    p {
+      padding-top: 2px;
     }
+    .landing-btn {
+      padding-top: 12px;
+    }
+  }
+  .about-container {
+    .about {
+      padding: 20px;
+    }
+  }
+  .branch-container {
+    padding: 20px;
+    .parralax-col {
+      flex-direction: column;
+    }
+  }
 }
+
+
+@include tablet-device-sm(mobile-lg, tablet-sm){
+  .landing {
+    padding: 30px;
+    p {
+      padding-top: 2px;
+    }
+    .landing-btn {
+      padding-top: 12px;
+    }
+  }
+  .about-container {
+    .about {
+      padding: 20px;
+    }
+  }
+  .branch-container {
+    padding: 20px;
+    .parralax-col {
+      flex-direction: column;
+    }
+  }
 }

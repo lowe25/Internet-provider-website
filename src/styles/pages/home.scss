@@ -73,6 +73,7 @@
 }
 
 //Media Queries
+//Mobile 480px
 @include mobile-device1(mobile-md) {
   .landing {
     padding: 30px;
@@ -96,8 +97,8 @@
   }
 }
 
-
-@include tablet-device-sm(mobile-lg, tablet-sm){
+//Mobile 481px - 767px
+@include mobile-device-md(mobile-lg, mobile-xl) {
   .landing {
     padding: 30px;
     p {

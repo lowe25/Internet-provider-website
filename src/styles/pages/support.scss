@@ -18,7 +18,7 @@
       display: flex;
       justify-content: space-evenly;
       width: 50%;
-      padding: 20px 0 8px 0;
+      padding: 15px 0px 10px 10px;
     }
     .solutions-p {
       display: flex;
@@ -58,19 +58,73 @@
 }
 
 //Mediaquery
+//Mobile 480px
 @include mobile-device1(mobile-md) {
-  .support-about{
-    p{
+  .support-about {
+    p {
       padding: 20px;
-     text-align: center;
+      text-align: center;
     }
   }
   .support-type {
     .support {
-      .help-h1,
+      .help-h1 {
+        padding: 5px;
+        width: 100%;
+      }
       .solutions-p {
         width: 100%;
-        padding: 0;
+        padding: 10px;
+      }
+    }
+    .concerns-div {
+      grid-template-columns: repeat(1, auto);
+      gap: 40px;
+    }
+  }
+}
+
+//Mobile 481px - 767px
+@include mobile-device-md(mobile-lg, mobile-xl) {
+  .support-about {
+    p {
+      padding: 20px;
+      text-align: center;
+    }
+  }
+  .support-type {
+    .support {
+      .help-h1 {
+        padding: 15px;
+        width: 100%;
+      }
+      .solutions-p {
+        width: 100%;
+        padding: 20px;
+      }
+    }
+    .concerns-div {
+      grid-template-columns: repeat(1, auto);
+      gap: 40px;
+    }
+  }
+}
+
+//Tablet 768px - 1024px
+@include tablet-device-sm(tablet-sm, tablet-md) {
+  .support-about {
+    p {
+      padding: 20px;
+      text-align: center;
+    }
+  }
+  .support-type {
+    .support {
+      .help-h1 {
+        width: 100%;
+      }
+      .solutions-p {
+        width: 100%;
       }
     }
     .concerns-div {

@@ -56,6 +56,7 @@
 }
 
 //MediaQueries
+//Mobile 480px
 @include mobile-device1(mobile-md) {
   .plans-h1{
     padding: 20px;
@@ -71,3 +72,39 @@
     }
   }
 }
+
+//Mobile 481px - 767px
+@include mobile-device-md(mobile-lg, mobile-xl){
+  .plans-h1{
+    padding: 20px;
+    line-height: 1.6;
+  }
+  .plans {
+    grid-template-columns: repeat(1, auto);
+  }
+  .plans-box {
+    width: 300px;
+    .speed {
+      width: 298px;
+    }
+  }
+}
+
+//Tablet 767px - 1024px
+@include tablet-device-sm(tablet-sm, tablet-md){
+  .plans-h1{
+    padding: 20px;
+    line-height: 1.6;
+  }
+  .plans {
+    grid-template-columns: repeat(1, auto);
+  }
+  .plans-box {
+    width: 500px;
+    .speed {
+      width:498px;
+    }
+  }
+}
+
+

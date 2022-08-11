@@ -28,6 +28,12 @@ $screen-sizes: (
   }
 }
 
+@mixin mobile-device-lg($screen1, $screen2) {
+  @media (min-width: map-get($screen-sizes, $screen1)) and (max-width: map-get($screen-sizes, $screen2)) {
+    @content;
+  }
+}
+
 @mixin tablet-device-sm($screen1, $screen2) {
   @media (min-width: map-get($screen-sizes, $screen1)) and (max-width: map-get($screen-sizes, $screen2)) {
     @content;

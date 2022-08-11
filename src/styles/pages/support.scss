@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-family: $font-montserrat;
   p {
     line-height: 1.7;
   }
@@ -13,6 +14,7 @@
   min-height: 350px;
   background-color: #c8c8c8;
   padding: 30px;
+  font-family: $font-montserrat;
   .support {
     .help-h1 {
       display: flex;

@@ -5,6 +5,7 @@
   height: 55px;
   color: white;
   z-index: -1;
+  font-family: $font-montserrat;
 }
 .logo {
   font-size: 20px;
@@ -34,6 +35,7 @@
     cursor: pointer;
     background-color: $btn-color-blue;
     color: $txt-color-white;
+    font-family: $font-montserrat;
   }
 }
 .nav-homeLinks1 {

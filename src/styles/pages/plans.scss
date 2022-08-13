@@ -1,7 +1,7 @@
 .plans-container {
   display: grid;
   align-items: center;
-  min-height: 730px;
+  min-height: 744px;
   font-family: $font-montserrat;
   .plans-h1 {
     text-align: center;
@@ -27,6 +27,10 @@
   }
   .plans-desc {
     text-align: center;
+    padding: 15px;
+    p{
+      line-height: 1.7;
+    }
   }
   .plan-benefits {
     display: flex;
@@ -34,12 +38,13 @@
     flex-direction: column;
     h1 {
       text-align: center;
+      padding: 5px;
     }
     padding: 20px;
     ul {
       li {
         list-style: none;
-        padding: 5px;
+        padding: 10px;
       }
     }
   }
@@ -104,6 +109,20 @@
     width: 500px;
     .speed {
       width:498px;
+    }
+  }
+}
+
+//LG Screen 1024px - 1315px
+@include screen-device-sm(tablet-md, screen-lg){
+  .plans {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .plans-box {
+    width: 600px;
+    .speed {
+      width:598px;
     }
   }
 }

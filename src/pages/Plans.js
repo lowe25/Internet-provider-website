@@ -11,7 +11,7 @@ function Plans() {
                         <h1>25 Mbps</h1>
                         </div>
                          <div className="plans-desc">
-                            <h1>Plan 2000</h1>
+                            <h1>Plan 100</h1>
                             <p>Best for Gaming and Movie Streaming <br />
                                 video conferencing, virtual learning and <br />
                                 work from home.
@@ -21,9 +21,9 @@ function Plans() {
                         <div className="plan-benefits">
                             <h1>Benefits</h1>
                             <ul>
-                                <li><i className="fas fa-phone-alt"></i>
-                                    Landline</li>
-                                <li><i className="fas fa-laptop"></i>Netflix and Disney +</li>
+                                <li>Landline</li>
+                                <li>Netflix and Disney +</li>
+                                <li>Connect to 10 Devices</li>
                             </ul>
                         </div>
                         <div className="plan-btn">
@@ -33,7 +33,7 @@ function Plans() {
 
                     <div className="plans-box">
                         <div className="speed">
-                        <h1>50 Mbps</h1>
+                        <h1>300 Mbps</h1>
                         </div>
                         <div className="plans-desc">
                             <h1>Plan 2000</h1>
@@ -41,14 +41,14 @@ function Plans() {
                                 video conferencing, virtual learning and  <br />
                                 work from home.
                             </p>
-                            <h1>$59.00/mo</h1>
+                            <h1>$79.00/mo</h1>
                         </div>
                         <div className="plan-benefits">
                             <h1>Benefits</h1>
                             <ul>
-                                <li><i className="fas fa-phone-alt"></i>
-                                    Landline</li>
-                                <li><i className="fas fa-laptop"></i>Netflix and Disney +</li>
+                                <li>Landline</li>
+                                <li>Netflix and Disney +</li>
+                                <li>Connect to 15 Devices</li>
                             </ul>
                         </div>
                         <div className="plan-btn">
@@ -58,7 +58,7 @@ function Plans() {
 
                     <div className="plans-box">
                     <div className="speed">
-                        <h1>100 Mbps</h1>
+                        <h1>1000 Mbps</h1>
                         </div>
                         <div className="plans-desc">
                             <h1>Plan 2000</h1>
@@ -66,14 +66,14 @@ function Plans() {
                                 video conferencing, virtual learning and  <br />
                                 work from home.
                             </p>
-                            <h1>$59.00/mo</h1>
+                            <h1>$99.00/mo</h1>
                         </div>
                         <div className="plan-benefits">
                             <h1>Benefits</h1>
                             <ul>
-                                <li><i className="fas fa-phone-alt"></i>
-                                    Landline</li>
-                                <li><i className="fas fa-laptop"></i>Netflix and Disney +</li>
+                                <li>Landline</li>
+                                <li>Netflix and Disney +</li>
+                                <li>Connect to 20 Devices</li>
                             </ul>
                         </div>
                         <div className="plan-btn">

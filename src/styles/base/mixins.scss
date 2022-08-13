@@ -53,63 +53,63 @@
 }
 
 @mixin nav-mobile-page {
-  .nav-page-links1,.nav-page-links2{
+  .nav-page-links1,
+  .nav-page-links2 {
     display: none;
-   }
-    .nav-links-page-mobile1{
-      position: absolute;
-      display: block;
-      left: 0;
-      top:50px;
-      width: 100%;
-      background-color: $bg-color;
-      z-index: 1;
-    }
-  
-    .nav-links-page-mobile2{
-      position: absolute;
-      display: block;
-      left: 0;
-      top:160px;
-      width: 100%;
-      z-index: 1;
-      text-align: center;
-      background-color: $bg-color;
-      .btn-nav{
-        border-radius: 64px;
-        height: 34px;
-        width: 90px;
-        border: none;
-        cursor: pointer;
-        background-color: $btn-color-blue;
-        color: $txt-color-white;
-    }
-    }
-  
-    .burger-menu{
-      display: block;
-      position: absolute;
-      top: 14px;
-      right: 25px;
-      font-size: 30px;
+  }
+  .nav-links-page-mobile1 {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    background-color: $bg-color;
+    z-index: 1;
+  }
+
+  .nav-links-page-mobile2 {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 160px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    background-color: $bg-color;
+    .btn-nav {
+      border-radius: 64px;
+      height: 34px;
+      width: 90px;
       border: none;
-      outline: none;
-      background-color: $bg-color;
+      cursor: pointer;
+      background-color: $btn-color-blue;
       color: $txt-color-white;
     }
-    .nav-links{
-      text-align: center;
-      padding: 32px;
-      list-style: none;
-      width: 100%;
-      padding: 20px;
-    }
-  
-    .burger-menu{
-      display: block;
-      position: absolute;
-      font-size: 22px;
-      border: none;
-    }
-   
+  }
+
+  .burger-menu {
+    display: block;
+    position: absolute;
+    top: 14px;
+    right: 25px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: $bg-color;
+    color: $txt-color-white;
+  }
+  .nav-links {
+    text-align: center;
+    padding: 32px;
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .burger-menu {
+    display: block;
+    position: absolute;
+    font-size: 22px;
+    border: none;
+  }
 }

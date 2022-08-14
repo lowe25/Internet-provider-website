@@ -17,6 +17,18 @@
   p {
     line-height: 1.7;
   }
+.landing-btn{
+  padding-top:15px;
+  .btn-viewPlans{
+    height: 30px;
+    width: 150px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    background-color: $btn-color-blue;
+    color: $txt-color-white;
+  }
+}
 }
 
 .about-container {
